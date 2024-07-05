@@ -1,0 +1,24 @@
+<!-- information.component.html -->
+<h1>Información</h1>
+<div class="row">
+  <div *ngFor="let item of deducibles1; let i = index" class="col s12 m6 l4">
+    <div class="card">
+      <div class="card-image">
+        <img [src]="item.imagen" [alt]="item.informacion_adicional" />
+        <span class="card-title">{{ item.gastos }}</span>
+      </div>
+      <div class="card-content">
+        <p>{{ item.descripcion }}</p>
+      </div>
+      <div class="card-action">
+        <button
+          (click)="informacion(item.informacion_adicional)"
+          class="btn blue"
+        >
+          Ver información detallada
+        </button>
+        <button (click)="borrar(i)" class="btn red">Eliminar</button>
+      </div>
+    </div>
+  </div>
+</div>

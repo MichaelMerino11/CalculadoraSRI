@@ -1,0 +1,42 @@
+/* Estilos para el body */
+body {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el nav */
+nav {
+  background-color: #006fe5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el nav-wrapper de Materialize CSS */
+nav .nav-wrapper {
+  padding: 0 20px;
+}
+
+/* Estilos para los enlaces del menú */
+nav a {
+  color: white;
+  font-size: 1rem;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+/* Efecto hover para los enlaces del menú */
+nav a:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+/* Estilo activo para los enlaces del menú */
+nav a.active {
+  background-color: #0056b3;
+}
+
+/* Estilos para el brand-logo (tu logo o título de la aplicación) */
+nav .brand-logo {
+  margin-left: 20px;
+  font-size: 1.5rem;
+  line-height: 64px; /* Ajustar según el tamaño del nav */
+}

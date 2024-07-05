@@ -1,0 +1,59 @@
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+.table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  } 
+   
+  /* Estilos para el caption de la tabla */
+  .caption-top {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Estilos para el encabezado de la tabla */
+  .table thead {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .table thead th {
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  /* Estilos para el cuerpo de la tabla */
+  .table tbody tr {
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.2s;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .table tbody th,
+  .table tbody td {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  /* Estilos para el encabezado de fila */
+  .table th[scope="row"] {
+    font-weight: bold;
+  }
+  
